@@ -1,0 +1,1 @@
+{"version":3,"file":"index.css","mappings":";;;AAAA;;CAAA;AAIA;EACC;AAAD,C","sources":["webpack://boilerplate/./src/editor.scss"],"sourcesContent":["/*\n* Style Works for Editor Only\n*/\n\n.wp-block-create-block-boilerplate {\n\tborder: 1px dotted rgb(1, 1, 1);\n}\n"],"names":[],"sourceRoot":""}

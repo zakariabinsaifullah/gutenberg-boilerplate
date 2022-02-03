@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "create-block/boilerplate",
+	"version": "0.1.0",
+	"title": "Boilerplate",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block written with ESNext standard and JSX support build step required.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "boilerplate",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
