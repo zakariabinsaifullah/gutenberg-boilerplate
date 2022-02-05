@@ -2,5 +2,8 @@
 	"extends": [
 		"plugin:@wordpress/eslint-plugin/recommended-with-formatting",
 		"prettier"
-	]
+	],
+	"rules": {
+		"no-shadow": [2, { "allow": ["done"] }]
+	}
 }

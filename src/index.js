@@ -1,17 +1,5 @@
-import { registerBlockType } from '@wordpress/blocks';
-import './style.scss';
-
 /**
- * Internal dependencies
- */
-import Edit from './edit';
-import Save from './save';
-
-/**
- * Block Registration
+ * Includes all blocks root files
  */
 
-registerBlockType('create-block/boilerplate', {
-	edit: Edit,
-	save: Save,
-});
+import './bootstrap/index';

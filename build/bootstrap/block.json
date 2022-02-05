@@ -1,13 +1,23 @@
 {
 	"apiVersion": 2,
-	"name": "create-block/boilerplate",
+	"name": "boilerplate/bootstrap",
 	"version": "0.1.0",
-	"title": "Boilerplate",
-	"category": "widgets",
+	"title": "Bootstrap Block",
+	"category": "boilerplate",
 	"icon": "smiley",
 	"description": "Example block written with ESNext standard and JSX support build step required.",
 	"supports": {
 		"html": false
+	},
+	"attributes": {
+		"content": {
+			"type": "string",
+			"default": "Hello World!"
+		},
+		"color": {
+			"type": "string",
+			"default": "#00ff00"
+		}
 	},
 	"textdomain": "boilerplate",
 	"editorScript": "file:./index.js",

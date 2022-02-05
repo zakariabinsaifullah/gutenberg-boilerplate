@@ -1,1 +1,0 @@
-{"version":3,"file":"./style-index.css","mappings":";;;AAAA;;CAAA;AAIA;EACC;EACA;EACA;AAAD,C","sources":["webpack://boilerplate/./src/style.scss"],"sourcesContent":["/*\n* Style Works for both Editor and Frontend\n*/\n\n.wp-block-create-block-boilerplate {\n\tbackground-color: #21759b;\n\tcolor: #fff;\n\tpadding: 2px;\n}\n"],"names":[],"sourceRoot":""}
