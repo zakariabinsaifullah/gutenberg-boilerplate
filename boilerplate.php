@@ -65,8 +65,8 @@ final class BOILERPLATE_BLOCKS_CLASS {
 	 */
 	private function boilerplate_define_constants() {
 		define( 'BOILERPLATE_VERSION', '1.0.0' );
-		define( 'BOILERPLATE_URL', plugins_url( '', __FILE__ ) );
-		define( 'BOILERPLATE_LIB_URL', BOILERPLATE_URL . '/lib/' );		
+		define( 'BOILERPLATE_URL', plugin_dir_url( __FILE__ ) );
+		define( 'BOILERPLATE_LIB_URL', BOILERPLATE_URL . 'lib/' );		
 	}
 
 	/**
