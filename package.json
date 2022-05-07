@@ -19,9 +19,9 @@
 		"start": "wp-scripts start"
 	},
 	"devDependencies": {
-		"@wordpress/eslint-plugin": "^12.1.0",
+		"@wordpress/eslint-plugin": "^12.2.0",
 		"@wordpress/prettier-config": "^1.2.0",
-		"@wordpress/scripts": "^22.5.0",
+		"@wordpress/scripts": "^23.0.0",
 		"@wordpress/stylelint-config": "^20.0.2",
 		"eslint-config-prettier": "^8.3.0"
 	}

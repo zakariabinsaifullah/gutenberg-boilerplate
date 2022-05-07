@@ -7,7 +7,8 @@
 	"icon": "smiley",
 	"description": "Example block written with ESNext standard and JSX support build step required.",
 	"supports": {
-		"html": false
+		"html": false,
+		"anchor": true
 	},
 	"attributes": {
 		"content": {
