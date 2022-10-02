@@ -11,7 +11,7 @@ const { Fragment } = wp.element;
 import './editor.scss';
 
 // colors
-import colors from '../colors-palette';
+import colors from '../../utilities/colors-palette';
 
 export default function Edit({ attributes, setAttributes }) {
 	const { content, color } = attributes;

@@ -66,7 +66,7 @@ final class BOILERPLATE_BLOCKS_CLASS {
 	private function boilerplate_define_constants() {
 		define( 'BOILERPLATE_VERSION', '1.0.0' );
 		define( 'BOILERPLATE_URL', plugin_dir_url( __FILE__ ) );
-		define( 'BOILERPLATE_LIB_URL', BOILERPLATE_URL . 'lib/' );		
+		define( 'BOILERPLATE_INC_URL', BOILERPLATE_URL . 'includes/' );		
 	}
 
 	/**
@@ -74,7 +74,7 @@ final class BOILERPLATE_BLOCKS_CLASS {
 	 */
 
 	public function boilerplate_register_block( $name, $options = array() ) {
-		register_block_type( __DIR__ . '/build/' . $name, $options );
+		register_block_type( __DIR__ . '/build/blocks/' . $name, $options );
 	 }
 
 	/**
@@ -106,7 +106,7 @@ final class BOILERPLATE_BLOCKS_CLASS {
 	 */
 	public function boilerplate_external_libraries() {
 		// enqueue JS
-		wp_enqueue_script( 'boilerplate-lib', BOILERPLATE_LIB_URL . 'js/lib.js', array(), BOILERPLATE_VERSION, true );
+		wp_enqueue_script( 'boilerplate-lib', BOILERPLATE_INC_URL . 'js/plugin.js', array(), BOILERPLATE_VERSION, true );
 	}
 
 }
