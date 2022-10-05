@@ -1,6 +1,6 @@
 {
 	"name": "gutenberg-boilerplate",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "A boilerplate for start developing custom Gutenberg Blocks",
 	"author": "Zakaria Binsaifullah",
 	"license": "GPL-2.0-or-later",
@@ -9,6 +9,15 @@
 		"type": "git",
 		"url": "git+https://github.com/zakariabinsaifullah/gutenberg-boilerplate.git"
 	},
+	"keywords": [
+		"wordpress",
+		"gutenberg",
+		"blocks",
+		"gutenberg blocks development",
+		"wordpress gutenberg blocks development",
+		"wordpress gutenberg blocks",
+		"wordpress gutenberg blocks development boilerplate"
+	],
 	"prettier": "@wordpress/prettier-config",
 	"stylelint": {
 		"extends": "@wordpress/stylelint-config/scss"
