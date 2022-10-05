@@ -14,7 +14,7 @@ on the almost same dependencies. So, let me explain a bit more so that you can u
 -   **Extra:** Gutenberg Boilerplate's files structure is more organized than @wordpress/create-block
 
 ## How to Start Your Development
-Simply clone the Repo.
+**Simply clone the Repo. in your WordPress plugin directory. Now install the plugin.**
 
 It creates a new plugin with a simply dummy cusotm gutenberg block
 and a custom block category. The name of the dummy block is **Bootsrap Block** and you will find it under **BOILERPLATE** cateogry.
