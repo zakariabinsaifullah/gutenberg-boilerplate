@@ -14,14 +14,9 @@ on the almost same dependencies. So, let me explain a bit more so that you can u
 -   **Extra:** Gutenberg Boilerplate's files structure is more organized than @wordpress/create-block
 
 ## How to Start Your Development
+Simply clone the Repo.
 
-To start development with this boilerplate, you have to run the following command line in your WordPress plugin folder.
-
-```
-$ npm i gutenberg-boilerplate
-```
-
-Once you run this command, you will get a new folder called **gutenberg-boilerplate**. It creates a new plugin with a simply dummy cusotm gutenberg block
+It creates a new plugin with a simply dummy cusotm gutenberg block
 and a custom block category. The name of the dummy block is **Bootsrap Block** and you will find it under **BOILERPLATE** cateogry.
 
 Now, it is time to run the following command to install npm, simply run the following command in this boilerplate folder (You may rename the folder as per your need).
