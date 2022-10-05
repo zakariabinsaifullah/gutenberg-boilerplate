@@ -1,10 +1,14 @@
 {
-	"name": "boilerplate",
-	"version": "0.1.0",
-	"description": "Example block written with ESNext standard and JSX support – build step required.",
-	"author": "The WordPress Contributors",
+	"name": "gutenberg-boilerplate",
+	"version": "1.0.0",
+	"description": "A boilerplate for start developing custom Gutenberg Blocks",
+	"author": "Zakaria Binsaifullah",
 	"license": "GPL-2.0-or-later",
-	"main": "build/index.js",
+	"main": "build/blocks/index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zakariabinsaifullah/gutenberg-boilerplate.git"
+	},
 	"prettier": "@wordpress/prettier-config",
 	"stylelint": {
 		"extends": "@wordpress/stylelint-config/scss"
@@ -19,10 +23,10 @@
 		"start": "wp-scripts start"
 	},
 	"devDependencies": {
-		"@wordpress/eslint-plugin": "^13.0.0",
-		"@wordpress/prettier-config": "^2.0.0",
-		"@wordpress/scripts": "^24.0.0",
-		"@wordpress/stylelint-config": "^21.0.0",
+		"@wordpress/eslint-plugin": "^13.2.0",
+		"@wordpress/prettier-config": "^2.1.0",
+		"@wordpress/scripts": "^24.2.0",
+		"@wordpress/stylelint-config": "^21.1.0",
 		"eslint-config-prettier": "^8.3.0"
 	}
 }
