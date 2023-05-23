@@ -1,4 +1,4 @@
-## Gutenberg Custom Block Development Boilerplate [Updated]
+## Gutenberg Block Development Boilerplate [Updated]
 
 It works like a boilerplate for start developing custom **Gutenberg Block**. This package has been made with
 **@wordpress/scripts**. It is almost similar to the **@wordpress/create-block**, but there is a huge differce between them.
