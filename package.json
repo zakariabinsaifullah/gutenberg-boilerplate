@@ -1,6 +1,6 @@
 {
 	"name": "gutenberg-boilerplate",
-	"version": "1.2.0",
+	"version": "2.0.0",
 	"description": "A boilerplate for start developing custom Gutenberg Blocks",
 	"author": "Zakaria Binsaifullah",
 	"license": "GPL-2.0-or-later",
@@ -34,7 +34,7 @@
 	"devDependencies": {
 		"@wordpress/eslint-plugin": "^13.2.0",
 		"@wordpress/prettier-config": "^2.1.0",
-		"@wordpress/scripts": "^24.2.0",
+		"@wordpress/scripts": "^24.6.0",
 		"@wordpress/stylelint-config": "^21.1.0",
 		"eslint-config-prettier": "^8.3.0"
 	}

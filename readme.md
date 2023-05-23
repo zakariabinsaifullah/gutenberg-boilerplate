@@ -1,4 +1,4 @@
-## Gutenberg Custom Block Development Boilerplate
+## Gutenberg Custom Block Development Boilerplate [Updated]
 
 It works like a boilerplate for start developing custom **Gutenberg Block**. This package has been made with
 **@wordpress/scripts**. It is almost similar to the **@wordpress/create-block**, but there is a huge differce between them.
@@ -14,6 +14,7 @@ on the almost same dependencies. So, let me explain a bit more so that you can u
 -   **Extra:** Gutenberg Boilerplate's files structure is more organized than @wordpress/create-block
 
 ## How to Start Your Development
+
 **Simply clone the Repo. in your WordPress plugin directory. Now install the plugin.**
 
 It creates a new plugin with a simply dummy cusotm gutenberg block
@@ -50,27 +51,13 @@ If you want to add a new block to your plugin, you must have to follow these ste
 -   **Step-3:** Import your block's **index.js** file in the main **index.js** file. You will find the file here: **src/index.js**. Already dummy block's file has been imported there. see the example. It will look like this: **import './blocks/box/index';**
 
 -   **Step-4:** Open your plugin main php file, in our boilerplate, its name is **plugin.php** (you can rename it as per your need). now find out the block register function. In our boilerplate, its name is **boilerplate_register_block()**.
-    Now, simply call the function for your new block and pass the block folder name as the function's agrument. In my case, it is like: **boilerplate_register_block('box')**.
-    Remember, you have to call this function individually for each block. If you have 10 blocks, you have to call this function 10 times and pass 10 blocks' name.
+    Now, simply add the new block name inside the **blocksList** array.
 
 **NOTE**: \*It is highly recommended using your own prefix. in case of boilerplate, the prefix was **boilerplate** and **BOILERPLATE\***
 
 ## Better Practice
 
 It is better to run **npm run build** firstly for new block registration, then simply run **npm start** to update editing.
-
-## Custom Color Pallete
-
-The following custom color pallate is added as test. You can either use it or remove it. You will find it in **src/utilities**
-
-| Color Name | Hex Code                                                         |
-| ---------- | ---------------------------------------------------------------- |
-| Block      | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
-| White      | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
-| Red        | ![#ff0000](https://via.placeholder.com/10/ff0000?text=+) #ff0000 |
-| Green      | ![#00ff00](https://via.placeholder.com/10/00ff00?text=+) #00ff00 |
-| Blue       | ![#0000ff](https://via.placeholder.com/10/0000ff?text=+) #0000ff |
-| Yellow     | ![#ffff00](https://via.placeholder.com/10/ffff00?text=+) #ffff00 |
 
 ### Acknowledgements
 
